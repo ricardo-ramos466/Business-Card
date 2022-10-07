@@ -1,14 +1,112 @@
 body{
   margin: 0;
+  background-color: #23252C;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+.content, .header{
   background-color: #1A1B21;
+  margin: 0;
+  padding: 0;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 317px;
+  
 }
 
-footer{
+.footer{
   background-color: #161619;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
-header{
+.header{
   text-align: center;
+  margin-top: 10px;
+}
+.header,.headshot{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .name{
 color: #FFFFFF;
+margin: 0;
+padding: 0;
+}
+.title{
+  color: #F3BF99;
+  margin: 0;
+  padding: 0;
+}
+.site{
+  color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  display: flex;  
+  column-gap: 30px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-item{
+  list-style: none;
+  border-radius: 5px;
+  height: 34px;
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.email{
+  background-color: #FFFFFF;
+  
+}
+.email a{
+  color: #374151;
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+.in{
+  background-color: #5093E2;
+}
+.in a{
+  text-emphasis: none;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.headshot{
+  height: 2%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  color: #DCDCDC;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+main h2, p{
+  margin: 0;
+  padding: 0;
+}
+.main-section{
+  padding-bottom: 20px;
+}
+
+.github-logo{
+  height: 35px;
+  width: auto;
+  padding: 10px;
 }
